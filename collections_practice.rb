@@ -44,4 +44,4 @@ def kesha_maker(array)
   new_array
 end
 
-#kesha_maker(["Lucy"])
+kesha_maker(["Lucy"])
