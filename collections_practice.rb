@@ -33,4 +33,4 @@ def reverse_array(array)
 new_array
 end
 
-reverse_array([1,2,3])
+([1,2,3])
