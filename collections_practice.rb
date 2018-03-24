@@ -27,13 +27,9 @@ def swap_elements(array)
 end
 
 def reverse_array(array)
-  i = 0
-  new_array = []
-  while i <= array.length
+  
   new_array << array.pop
-  i += 1 
-end
-binding.pry
+ 
 new_array
 end
 
