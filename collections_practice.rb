@@ -1,5 +1,3 @@
-require 'pry'
-
 def sort_array_asc(array)
   new_array = array.sort
   new_array
@@ -27,10 +25,12 @@ def swap_elements(array)
 end
 
 def reverse_array(array)
-  
-  new_array << array.pop
+  new_array = []
+  array.each do |i|
+  new_array.shift(i)
+end
+end
  
 new_array
 end
 
-([1,2,3])
