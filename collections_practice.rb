@@ -38,8 +38,9 @@ def kesha_maker(array)
   new_array = []
   array.each do |i|
     temp_array = i.split
+        binding.pry
+
     temp_array[2] = "$"
-    binding.pry
     new_array << temp_array.join
     
   end
