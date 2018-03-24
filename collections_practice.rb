@@ -23,3 +23,13 @@ def swap_elements(array)
   array[2] = temp_variable
   array
 end
+
+def reverse_array(array)
+  i = 0
+  new_array = []
+  while i > array.length
+  new_array << array.pop
+  i += 1 
+end
+new_array
+end
