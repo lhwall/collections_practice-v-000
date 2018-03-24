@@ -29,9 +29,6 @@ def reverse_array(array)
   array.each do |i|
   new_array.unshift(i)
 end
-end
-end
- 
 new_array
 end
 
