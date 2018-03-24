@@ -30,6 +30,7 @@ def reverse_array(array)
   new_array.unshift(i)
 end
 end
+end
  
 new_array
 end
