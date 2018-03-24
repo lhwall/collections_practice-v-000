@@ -36,3 +36,5 @@ end
 binding.pry
 new_array
 end
+
+reverse_array([1,2,3])
