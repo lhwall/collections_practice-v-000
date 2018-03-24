@@ -1,3 +1,5 @@
+require 'pry'
+
 def sort_array_asc(array)
   new_array = array.sort
   new_array
@@ -31,5 +33,6 @@ def reverse_array(array)
   new_array << array.pop
   i += 1 
 end
+binding.pry
 new_array
 end
