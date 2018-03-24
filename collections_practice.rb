@@ -40,6 +40,7 @@ def kesha_maker(array)
     new_array << temp_array.join
     
   end
+  binding.pry
   new_array
 end
 
